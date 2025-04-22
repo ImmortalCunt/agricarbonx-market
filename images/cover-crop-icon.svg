@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cover Crop Icon</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cover-Crop-Icon">
+            <circle id="Background" fill="#E8F5E9" cx="25" cy="25" r="25"></circle>
+            <rect id="Soil" fill="#5D4037" x="5" y="35" width="40" height="10" rx="2"></rect>
+            
+            <!-- Main Crop -->
+            <line id="Main-Crop-Stem" stroke="#1E5631" stroke-width="2" x1="25" y1="35" x2="25" y2="15"></line>
+            <path d="M25,15 C25,15 20,10 15,15" id="Leaf-Left" stroke="#4CAF50" stroke-width="2" fill="#4CAF50"></path>
+            <path d="M25,15 C25,15 30,10 35,15" id="Leaf-Right" stroke="#4CAF50" stroke-width="2" fill="#4CAF50"></path>
+            <path d="M25,20 C25,20 20,15 15,20" id="Leaf-Left-2" stroke="#4CAF50" stroke-width="2" fill="#4CAF50"></path>
+            <path d="M25,20 C25,20 30,15 35,20" id="Leaf-Right-2" stroke="#4CAF50" stroke-width="2" fill="#4CAF50"></path>
+            
+            <!-- Cover Crops -->
+            <line id="Cover-1-Stem" stroke="#8BC34A" stroke-width="1.5" x1="10" y1="35" x2="10" y2="25"></line>
+            <circle id="Cover-1-Top" fill="#8BC34A" cx="10" cy="25" r="2"></circle>
+            
+            <line id="Cover-2-Stem" stroke="#8BC34A" stroke-width="1.5" x1="15" y1="35" x2="15" y2="28"></line>
+            <circle id="Cover-2-Top" fill="#8BC34A" cx="15" cy="28" r="2"></circle>
+            
+            <line id="Cover-3-Stem" stroke="#8BC34A" stroke-width="1.5" x1="35" y1="35" x2="35" y2="28"></line>
+            <circle id="Cover-3-Top" fill="#8BC34A" cx="35" cy="28" r="2"></circle>
+            
+            <line id="Cover-4-Stem" stroke="#8BC34A" stroke-width="1.5" x1="40" y1="35" x2="40" y2="25"></line>
+            <circle id="Cover-4-Top" fill="#8BC34A" cx="40" cy="25" r="2"></circle>
+            
+            <!-- Different Cover Crop -->
+            <line id="Cover-5-Stem" stroke="#CDDC39" stroke-width="1.5" x1="20" y1="35" x2="20" y2="30"></line>
+            <path d="M20,30 C20,30 18,28 16,30" id="Cover-5-Leaf-1" stroke="#CDDC39" stroke-width="1" fill="#CDDC39"></path>
+            <path d="M20,30 C20,30 22,28 24,30" id="Cover-5-Leaf-2" stroke="#CDDC39" stroke-width="1" fill="#CDDC39"></path>
+            
+            <line id="Cover-6-Stem" stroke="#CDDC39" stroke-width="1.5" x1="30" y1="35" x2="30" y2="30"></line>
+            <path d="M30,30 C30,30 28,28 26,30" id="Cover-6-Leaf-1" stroke="#CDDC39" stroke-width="1" fill="#CDDC39"></path>
+            <path d="M30,30 C30,30 32,28 34,30" id="Cover-6-Leaf-2" stroke="#CDDC39" stroke-width="1" fill="#CDDC39"></path>
+        </g>
+    </g>
+</svg>

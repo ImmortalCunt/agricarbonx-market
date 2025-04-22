@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="300px" viewBox="0 0 400 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mobile Feature</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Illustration">
+            <!-- Background -->
+            <rect id="Background" fill="#F5F7FA" x="0" y="0" width="400" height="300" rx="10"></rect>
+            
+            <!-- Mobile Phone -->
+            <g id="Phone" transform="translate(150, 40)">
+                <rect id="Phone-Body" fill="#455A64" x="0" y="0" width="100" height="200" rx="10"></rect>
+                <rect id="Phone-Screen" fill="#FFFFFF" x="5" y="20" width="90" height="160" rx="2"></rect>
+                <circle id="Phone-Button" fill="#B0BEC5" cx="50" cy="190" r="8"></circle>
+                <rect id="Phone-Speaker" fill="#B0BEC5" x="40" y="10" width="20" height="3" rx="1.5"></rect>
+                
+                <!-- App Interface -->
+                <rect id="App-Header" fill="#2E7D32" x="5" y="20" width="90" height="20" rx="2" ry="0"></rect>
+                <text id="App-Title" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="18" y="34">AgricarbonX</tspan>
+                </text>
+                
+                <!-- Navigation Tabs -->
+                <rect id="Nav-Bar" fill="#ECEFF1" x="5" y="40" width="90" height="15"></rect>
+                <text id="Tab-1" font-family="Arial, Arial" font-size="8" fill="#2E7D32">
+                    <tspan x="12" y="50">Dashboard</tspan>
+                </text>
+                <text id="Tab-2" font-family="Arial, Arial" font-size="8" fill="#78909C">
+                    <tspan x="60" y="50">Practices</tspan>
+                </text>
+                
+                <!-- Dashboard Content -->
+                <rect id="Dashboard-Card-1" fill="#FFFFFF" stroke="#B0BEC5" stroke-width="1" x="10" y="60" width="80" height="40" rx="4"></rect>
+                <text id="Card-1-Title" font-family="Arial-BoldMT, Arial" font-size="8" font-weight="bold" fill="#263238">
+                    <tspan x="15" y="72">Carbon Credits</tspan>
+                </text>
+                <text id="Card-1-Value" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#2E7D32">
+                    <tspan x="15" y="90">125</tspan>
+                </text>
+                <text id="Card-1-Label" font-family="Arial, Arial" font-size="7" fill="#78909C">
+                    <tspan x="50" y="90">tCO₂e</tspan>
+                </text>
+                
+                <rect id="Dashboard-Card-2" fill="#FFFFFF" stroke="#B0BEC5" stroke-width="1" x="10" y="105" width="80" height="40" rx="4"></rect>
+                <text id="Card-2-Title" font-family="Arial-BoldMT, Arial" font-size="8" font-weight="bold" fill="#263238">
+                    <tspan x="15" y="117">Estimated Value</tspan>
+                </text>
+                <text id="Card-2-Value" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#2E7D32">
+                    <tspan x="15" y="135">$3,750</tspan>
+                </text>
+                
+                <!-- Action Button -->
+                <rect id="Action-Button" fill="#2E7D32" x="20" y="155" width="60" height="15" rx="7.5"></rect>
+                <text id="Button-Text" font-family="Arial-BoldMT, Arial" font-size="8" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="30" y="165">Document</tspan>
+                </text>
+            </g>
+            
+            <!-- Field Worker -->
+            <g id="Farmer" transform="translate(50, 100)">
+                <circle id="Head" fill="#FFD54F" cx="30" cy="30" r="15"></circle>
+                <rect id="Body" fill="#5D4037" x="20" y="45" width="20" height="30" rx="2"></rect>
+                <rect id="Arm-Left" fill="#5D4037" x="10" y="50" width="10" height="20" rx="5"></rect>
+                <rect id="Arm-Right" fill="#5D4037" x="40" y="50" width="30" height="10" rx="5"></rect>
+                <rect id="Leg-Left" fill="#3E2723" x="20" y="75" width="8" height="25" rx="2"></rect>
+                <rect id="Leg-Right" fill="#3E2723" x="32" y="75" width="8" height="25" rx="2"></rect>
+                <circle id="Hand" fill="#FFD54F" cx="70" cy="55" r="5"></circle>
+                
+                <!-- Hat -->
+                <path d="M15,30 C15,20 45,20 45,30" id="Hat" stroke="#3E2723" stroke-width="2" fill="#8D6E63"></path>
+            </g>
+            
+            <!-- Field Elements -->
+            <g id="Field" transform="translate(20, 200)">
+                <rect id="Ground" fill="#60AD5E" x="0" y="0" width="120" height="20"></rect>
+                <line id="Row-1" stroke="#1E5631" stroke-width="1" x1="10" y1="5" x2="110" y2="5"></line>
+                <line id="Row-2" stroke="#1E5631" stroke-width="1" x1="10" y1="15" x2="110" y2="15"></line>
+                
+                <!-- Plants -->
+                <line id="Plant-1-Stem" stroke="#1E5631" stroke-width="1" x1="30" y1="0" x2="30" y2="-10"></line>
+                <circle id="Plant-1-Leaf" fill="#4CAF50" cx="30" cy="-10" r="3"></circle>
+                
+                <line id="Plant-2-Stem" stroke="#1E5631" stroke-width="1" x1="50" y1="0" x2="50" y2="-15"></line>
+                <circle id="Plant-2-Leaf" fill="#4CAF50" cx="50" cy="-15" r="4"></circle>
+                
+                <line id="Plant-3-Stem" stroke="#1E5631" stroke-width="1" x1="70" y1="0" x2="70" y2="-12"></line>
+                <circle id="Plant-3-Leaf" fill="#4CAF50" cx="70" cy="-12" r="3"></circle>
+                
+                <line id="Plant-4-Stem" stroke="#1E5631" stroke-width="1" x1="90" y1="0" x2="90" y2="-8"></line>
+                <circle id="Plant-4-Leaf" fill="#4CAF50" cx="90" cy="-8" r="2"></circle>
+            </g>
+            
+            <!-- Connection Lines -->
+            <g id="Connections" transform="translate(0, 0)">
+                <path d="M100,130 C120,130 130,150 150,150" id="Connection-1" stroke="#1565C0" stroke-width="2" stroke-dasharray="4,2"></path>
+                <circle id="Connection-Dot-1" fill="#1565C0" cx="150" cy="150" r="3"></circle>
+                
+                <path d="M250,150 C270,150 280,130 300,130" id="Connection-2" stroke="#1565C0" stroke-width="2" stroke-dasharray="4,2"></path>
+                <circle id="Connection-Dot-2" fill="#1565C0" cx="300" cy="130" r="3"></circle>
+            </g>
+            
+            <!-- Cloud Icon -->
+            <g id="Cloud" transform="translate(300, 100)">
+                <path d="M25,30 C38.8071,30 50,18.8071 50,5 C50,-8.8071 38.8071,-20 25,-20 C11.1929,-20 0,-8.8071 0,5 C0,18.8071 11.1929,30 25,30 Z" id="Cloud-Shape" fill="#ECEFF1" stroke="#78909C" stroke-width="1"></path>
+                <text id="Cloud-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#455A64">
+                    <tspan x="8" y="8">Sync</tspan>
+                </text>
+                
+                <!-- Sync Icon -->
+                <path d="M25,15 C28,15 30,13 30,10 C30,7 28,5 25,5 C22,5 20,7 20,10" id="Sync-Arrow-1" stroke="#455A64" stroke-width="1.5" fill="none"></path>
+                <path d="M25,-5 C22,-5 20,-3 20,0 C20,3 22,5 25,5 C28,5 30,3 30,0" id="Sync-Arrow-2" stroke="#455A64" stroke-width="1.5" fill="none"></path>
+                <polyline id="Arrow-1" stroke="#455A64" stroke-width="1.5" fill="none" points="18 7 20 10 23 7"></polyline>
+                <polyline id="Arrow-2" stroke="#455A64" stroke-width="1.5" fill="none" points="32 -2 30 -5 27 -2"></polyline>
+            </g>
+            
+            <!-- Offline Mode -->
+            <g id="Offline" transform="translate(300, 200)">
+                <rect id="Offline-Box" fill="#FFFFFF" stroke="#F44336" stroke-width="1" x="0" y="0" width="80" height="30" rx="5"></rect>
+                <text id="Offline-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#F44336">
+                    <tspan x="15" y="20">Offline Mode</tspan>
+                </text>
+                <circle id="Offline-Indicator" fill="#F44336" cx="70" cy="10" r="5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

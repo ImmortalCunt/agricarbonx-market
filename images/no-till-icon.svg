@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>No-Till Farming Icon</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-Till-Icon">
+            <circle id="Background" fill="#E8F5E9" cx="25" cy="25" r="25"></circle>
+            <rect id="Soil" fill="#5D4037" x="5" y="30" width="40" height="15" rx="2"></rect>
+            <path d="M5,30 L45,30 L45,28 C45,26.8954 44.1046,26 43,26 L7,26 C5.89543,26 5,26.8954 5,28 L5,30 Z" id="Soil-Top" fill="#8D6E63"></path>
+            
+            <!-- Plants -->
+            <line id="Plant-1-Stem" stroke="#1E5631" stroke-width="2" x1="10" y1="26" x2="10" y2="15"></line>
+            <circle id="Plant-1-Leaf" fill="#4CAF50" cx="10" cy="15" r="3"></circle>
+            
+            <line id="Plant-2-Stem" stroke="#1E5631" stroke-width="2" x1="20" y1="26" x2="20" y2="10"></line>
+            <circle id="Plant-2-Leaf" fill="#4CAF50" cx="20" cy="10" r="4"></circle>
+            
+            <line id="Plant-3-Stem" stroke="#1E5631" stroke-width="2" x1="30" y1="26" x2="30" y2="12"></line>
+            <circle id="Plant-3-Leaf" fill="#4CAF50" cx="30" cy="12" r="3"></circle>
+            
+            <line id="Plant-4-Stem" stroke="#1E5631" stroke-width="2" x1="40" y1="26" x2="40" y2="18"></line>
+            <circle id="Plant-4-Leaf" fill="#4CAF50" cx="40" cy="18" r="3"></circle>
+            
+            <!-- No-Till Symbol -->
+            <circle id="Symbol-Circle" stroke="#F44336" stroke-width="2" cx="25" cy="35" r="7"></circle>
+            <line id="Symbol-Slash" stroke="#F44336" stroke-width="2" x1="18" y1="35" x2="32" y2="35"></line>
+        </g>
+    </g>
+</svg>

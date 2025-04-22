@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="300px" viewBox="0 0 400 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Blockchain Feature</title>
+    <g id="Blockchain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blockchain-Illustration">
+            <!-- Background -->
+            <rect id="Background" fill="#F5F7FA" x="0" y="0" width="400" height="300" rx="10"></rect>
+            
+            <!-- Blockchain Nodes -->
+            <g id="Blockchain-Nodes" transform="translate(50, 50)">
+                <!-- Node 1 -->
+                <rect id="Node-1" fill="#1565C0" x="0" y="0" width="80" height="60" rx="5"></rect>
+                <rect id="Node-1-Header" fill="#0D47A1" x="0" y="0" width="80" height="20" rx="5" ry="0"></rect>
+                <text id="Node-1-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="25" y="14">Block 1</tspan>
+                </text>
+                <text id="Node-1-Hash" font-family="Courier" font-size="8" fill="#FFFFFF">
+                    <tspan x="10" y="34">0x7f2b...</tspan>
+                    <tspan x="10" y="46">Carbon: 50</tspan>
+                </text>
+                
+                <!-- Node 2 -->
+                <rect id="Node-2" fill="#1565C0" x="120" y="0" width="80" height="60" rx="5"></rect>
+                <rect id="Node-2-Header" fill="#0D47A1" x="120" y="0" width="80" height="20" rx="5" ry="0"></rect>
+                <text id="Node-2-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="145" y="14">Block 2</tspan>
+                </text>
+                <text id="Node-2-Hash" font-family="Courier" font-size="8" fill="#FFFFFF">
+                    <tspan x="130" y="34">0x3a9c...</tspan>
+                    <tspan x="130" y="46">Carbon: 75</tspan>
+                </text>
+                
+                <!-- Node 3 -->
+                <rect id="Node-3" fill="#1565C0" x="240" y="0" width="80" height="60" rx="5"></rect>
+                <rect id="Node-3-Header" fill="#0D47A1" x="240" y="0" width="80" height="20" rx="5" ry="0"></rect>
+                <text id="Node-3-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="265" y="14">Block 3</tspan>
+                </text>
+                <text id="Node-3-Hash" font-family="Courier" font-size="8" fill="#FFFFFF">
+                    <tspan x="250" y="34">0x8e5d...</tspan>
+                    <tspan x="250" y="46">Carbon: 120</tspan>
+                </text>
+                
+                <!-- Node 4 -->
+                <rect id="Node-4" fill="#1565C0" x="60" y="100" width="80" height="60" rx="5"></rect>
+                <rect id="Node-4-Header" fill="#0D47A1" x="60" y="100" width="80" height="20" rx="5" ry="0"></rect>
+                <text id="Node-4-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="85" y="114">Block 4</tspan>
+                </text>
+                <text id="Node-4-Hash" font-family="Courier" font-size="8" fill="#FFFFFF">
+                    <tspan x="70" y="134">0x2f1a...</tspan>
+                    <tspan x="70" y="146">Carbon: 90</tspan>
+                </text>
+                
+                <!-- Node 5 -->
+                <rect id="Node-5" fill="#1565C0" x="180" y="100" width="80" height="60" rx="5"></rect>
+                <rect id="Node-5-Header" fill="#0D47A1" x="180" y="100" width="80" height="20" rx="5" ry="0"></rect>
+                <text id="Node-5-Text" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="205" y="114">Block 5</tspan>
+                </text>
+                <text id="Node-5-Hash" font-family="Courier" font-size="8" fill="#FFFFFF">
+                    <tspan x="190" y="134">0x6c4b...</tspan>
+                    <tspan x="190" y="146">Carbon: 60</tspan>
+                </text>
+                
+                <!-- Connections -->
+                <line id="Connection-1-2" stroke="#2E7D32" stroke-width="2" x1="80" y1="30" x2="120" y2="30"></line>
+                <line id="Connection-2-3" stroke="#2E7D32" stroke-width="2" x1="200" y1="30" x2="240" y2="30"></line>
+                <line id="Connection-1-4" stroke="#2E7D32" stroke-width="2" x1="40" y1="60" x2="80" y2="100"></line>
+                <line id="Connection-2-4" stroke="#2E7D32" stroke-width="2" x1="140" y1="60" x2="100" y2="100"></line>
+                <line id="Connection-2-5" stroke="#2E7D32" stroke-width="2" x1="160" y1="60" x2="200" y2="100"></line>
+                <line id="Connection-3-5" stroke="#2E7D32" stroke-width="2" x1="260" y1="60" x2="220" y2="100"></line>
+                <line id="Connection-4-5" stroke="#2E7D32" stroke-width="2" x1="140" y1="130" x2="180" y2="130"></line>
+            </g>
+            
+            <!-- Token Icons -->
+            <g id="Tokens" transform="translate(200, 200)">
+                <circle id="Token-1" fill="#2E7D32" cx="0" cy="0" r="15"></circle>
+                <text id="Token-1-Text" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="-7" y="4">CO₂</tspan>
+                </text>
+                
+                <circle id="Token-2" fill="#2E7D32" cx="-40" cy="20" r="15"></circle>
+                <text id="Token-2-Text" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="-47" y="24">CO₂</tspan>
+                </text>
+                
+                <circle id="Token-3" fill="#2E7D32" cx="40" cy="20" r="15"></circle>
+                <text id="Token-3-Text" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="33" y="24">CO₂</tspan>
+                </text>
+            </g>
+            
+            <!-- Smart Contract -->
+            <g id="Smart-Contract" transform="translate(50, 230)">
+                <rect id="Contract" fill="#FFFFFF" stroke="#1E5631" stroke-width="2" x="0" y="0" width="100" height="50" rx="5"></rect>
+                <text id="Contract-Title" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#1E5631">
+                    <tspan x="15" y="20">Smart Contract</tspan>
+                </text>
+                <line id="Contract-Line-1" stroke="#1E5631" stroke-width="1" x1="10" y1="25" x2="90" y2="25"></line>
+                <line id="Contract-Line-2" stroke="#1E5631" stroke-width="1" x1="10" y1="35" x2="70" y2="35"></line>
+                <line id="Contract-Line-3" stroke="#1E5631" stroke-width="1" x1="10" y1="40" x2="80" y2="40"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="400px" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Hero Image</title>
+    <g id="Hero" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sustainable-Farming">
+            <rect id="Sky" fill="#E4EFE9" x="0" y="0" width="600" height="250"></rect>
+            <rect id="Field" fill="#60AD5E" x="0" y="250" width="600" height="150"></rect>
+            
+            <!-- Sun -->
+            <circle id="Sun" fill="#FFD54F" cx="500" cy="80" r="40"></circle>
+            <circle id="Sun-Glow" fill="#FFD54F" opacity="0.3" cx="500" cy="80" r="60"></circle>
+            
+            <!-- Clouds -->
+            <ellipse id="Cloud-1" fill="#FFFFFF" opacity="0.8" cx="150" cy="100" rx="50" ry="30"></ellipse>
+            <ellipse id="Cloud-2" fill="#FFFFFF" opacity="0.6" cx="350" cy="70" rx="70" ry="25"></ellipse>
+            
+            <!-- Trees -->
+            <rect id="Tree-Trunk-1" fill="#8D6E63" x="50" y="200" width="10" height="50"></rect>
+            <ellipse id="Tree-Top-1" fill="#2E7D32" cx="55" cy="180" rx="25" ry="35"></ellipse>
+            
+            <rect id="Tree-Trunk-2" fill="#8D6E63" x="540" y="210" width="12" height="40"></rect>
+            <ellipse id="Tree-Top-2" fill="#2E7D32" cx="546" cy="190" rx="30" ry="40"></ellipse>
+            
+            <!-- Tractor -->
+            <g id="Tractor" transform="translate(300, 300)">
+                <rect id="Tractor-Body" fill="#F44336" x="0" y="-30" width="60" height="30" rx="5"></rect>
+                <rect id="Tractor-Cabin" fill="#F44336" x="50" y="-50" width="30" height="30" rx="5"></rect>
+                <circle id="Tractor-Wheel-Back" fill="#424242" cx="15" cy="5" r="15"></circle>
+                <circle id="Tractor-Wheel-Front" fill="#424242" cx="65" cy="5" r="10"></circle>
+                <rect id="Tractor-Window" fill="#BBDEFB" x="55" y="-45" width="20" height="15" rx="2"></rect>
+            </g>
+            
+            <!-- Crops -->
+            <g id="Crops" transform="translate(0, 250)">
+                <!-- Row 1 -->
+                <g id="Crop-Row-1" transform="translate(100, 0)">
+                    <line id="Row-Line-1" stroke="#1E5631" stroke-width="2" x1="0" y1="0" x2="400" y2="0"></line>
+                    <g id="Plants-1" transform="translate(0, 0)">
+                        <line id="Plant-Stem-1" stroke="#1E5631" stroke-width="2" x1="0" y1="0" x2="0" y2="-20"></line>
+                        <circle id="Plant-Leaf-1" fill="#4CAF50" cx="0" cy="-20" r="5"></circle>
+                        
+                        <line id="Plant-Stem-2" stroke="#1E5631" stroke-width="2" x1="40" y1="0" x2="40" y2="-15"></line>
+                        <circle id="Plant-Leaf-2" fill="#4CAF50" cx="40" cy="-15" r="4"></circle>
+                        
+                        <line id="Plant-Stem-3" stroke="#1E5631" stroke-width="2" x1="80" y1="0" x2="80" y2="-25"></line>
+                        <circle id="Plant-Leaf-3" fill="#4CAF50" cx="80" cy="-25" r="6"></circle>
+                        
+                        <line id="Plant-Stem-4" stroke="#1E5631" stroke-width="2" x1="120" y1="0" x2="120" y2="-18"></line>
+                        <circle id="Plant-Leaf-4" fill="#4CAF50" cx="120" cy="-18" r="5"></circle>
+                        
+                        <line id="Plant-Stem-5" stroke="#1E5631" stroke-width="2" x1="160" y1="0" x2="160" y2="-22"></line>
+                        <circle id="Plant-Leaf-5" fill="#4CAF50" cx="160" cy="-22" r="5"></circle>
+                        
+                        <line id="Plant-Stem-6" stroke="#1E5631" stroke-width="2" x1="200" y1="0" x2="200" y2="-20"></line>
+                        <circle id="Plant-Leaf-6" fill="#4CAF50" cx="200" cy="-20" r="5"></circle>
+                        
+                        <line id="Plant-Stem-7" stroke="#1E5631" stroke-width="2" x1="240" y1="0" x2="240" y2="-15"></line>
+                        <circle id="Plant-Leaf-7" fill="#4CAF50" cx="240" cy="-15" r="4"></circle>
+                        
+                        <line id="Plant-Stem-8" stroke="#1E5631" stroke-width="2" x1="280" y1="0" x2="280" y2="-25"></line>
+                        <circle id="Plant-Leaf-8" fill="#4CAF50" cx="280" cy="-25" r="6"></circle>
+                        
+                        <line id="Plant-Stem-9" stroke="#1E5631" stroke-width="2" x1="320" y1="0" x2="320" y2="-18"></line>
+                        <circle id="Plant-Leaf-9" fill="#4CAF50" cx="320" cy="-18" r="5"></circle>
+                        
+                        <line id="Plant-Stem-10" stroke="#1E5631" stroke-width="2" x1="360" y1="0" x2="360" y2="-22"></line>
+                        <circle id="Plant-Leaf-10" fill="#4CAF50" cx="360" cy="-22" r="5"></circle>
+                    </g>
+                </g>
+                
+                <!-- Row 2 -->
+                <g id="Crop-Row-2" transform="translate(100, 40)">
+                    <line id="Row-Line-2" stroke="#1E5631" stroke-width="2" x1="0" y1="0" x2="400" y2="0"></line>
+                    <g id="Plants-2" transform="translate(20, 0)">
+                        <line id="Plant-Stem-11" stroke="#1E5631" stroke-width="2" x1="0" y1="0" x2="0" y2="-18"></line>
+                        <circle id="Plant-Leaf-11" fill="#4CAF50" cx="0" cy="-18" r="5"></circle>
+                        
+                        <line id="Plant-Stem-12" stroke="#1E5631" stroke-width="2" x1="40" y1="0" x2="40" y2="-22"></line>
+                        <circle id="Plant-Leaf-12" fill="#4CAF50" cx="40" cy="-22" r="5"></circle>
+                        
+                        <line id="Plant-Stem-13" stroke="#1E5631" stroke-width="2" x1="80" y1="0" x2="80" y2="-15"></line>
+                        <circle id="Plant-Leaf-13" fill="#4CAF50" cx="80" cy="-15" r="4"></circle>
+                        
+                        <line id="Plant-Stem-14" stroke="#1E5631" stroke-width="2" x1="120" y1="0" x2="120" y2="-25"></line>
+                        <circle id="Plant-Leaf-14" fill="#4CAF50" cx="120" cy="-25" r="6"></circle>
+                        
+                        <line id="Plant-Stem-15" stroke="#1E5631" stroke-width="2" x1="160" y1="0" x2="160" y2="-18"></line>
+                        <circle id="Plant-Leaf-15" fill="#4CAF50" cx="160" cy="-18" r="5"></circle>
+                        
+                        <line id="Plant-Stem-16" stroke="#1E5631" stroke-width="2" x1="200" y1="0" x2="200" y2="-22"></line>
+                        <circle id="Plant-Leaf-16" fill="#4CAF50" cx="200" cy="-22" r="5"></circle>
+                        
+                        <line id="Plant-Stem-17" stroke="#1E5631" stroke-width="2" x1="240" y1="0" x2="240" y2="-20"></line>
+                        <circle id="Plant-Leaf-17" fill="#4CAF50" cx="240" cy="-20" r="5"></circle>
+                        
+                        <line id="Plant-Stem-18" stroke="#1E5631" stroke-width="2" x1="280" y1="0" x2="280" y2="-15"></line>
+                        <circle id="Plant-Leaf-18" fill="#4CAF50" cx="280" cy="-15" r="4"></circle>
+                        
+                        <line id="Plant-Stem-19" stroke="#1E5631" stroke-width="2" x1="320" y1="0" x2="320" y2="-25"></line>
+                        <circle id="Plant-Leaf-19" fill="#4CAF50" cx="320" cy="-25" r="6"></circle>
+                    </g>
+                </g>
+                
+                <!-- Row 3 -->
+                <g id="Crop-Row-3" transform="translate(100, 80)">
+                    <line id="Row-Line-3" stroke="#1E5631" stroke-width="2" x1="0" y1="0" x2="400" y2="0"></line>
+                    <g id="Plants-3" transform="translate(0, 0)">
+                        <line id="Plant-Stem-21" stroke="#1E5631" stroke-width="2" x1="0" y1="0" x2="0" y2="-20"></line>
+                        <circle id="Plant-Leaf-21" fill="#4CAF50" cx="0" cy="-20" r="5"></circle>
+                        
+                        <line id="Plant-Stem-22" stroke="#1E5631" stroke-width="2" x1="40" y1="0" x2="40" y2="-15"></line>
+                        <circle id="Plant-Leaf-22" fill="#4CAF50" cx="40" cy="-15" r="4"></circle>
+                        
+                        <line id="Plant-Stem-23" stroke="#1E5631" stroke-width="2" x1="80" y1="0" x2="80" y2="-25"></line>
+                        <circle id="Plant-Leaf-23" fill="#4CAF50" cx="80" cy="-25" r="6"></circle>
+                        
+                        <line id="Plant-Stem-24" stroke="#1E5631" stroke-width="2" x1="120" y1="0" x2="120" y2="-18"></line>
+                        <circle id="Plant-Leaf-24" fill="#4CAF50" cx="120" cy="-18" r="5"></circle>
+                        
+                        <line id="Plant-Stem-25" stroke="#1E5631" stroke-width="2" x1="160" y1="0" x2="160" y2="-22"></line>
+                        <circle id="Plant-Leaf-25" fill="#4CAF50" cx="160" cy="-22" r="5"></circle>
+                        
+                        <line id="Plant-Stem-26" stroke="#1E5631" stroke-width="2" x1="200" y1="0" x2="200" y2="-20"></line>
+                        <circle id="Plant-Leaf-26" fill="#4CAF50" cx="200" cy="-20" r="5"></circle>
+                        
+                        <line id="Plant-Stem-27" stroke="#1E5631" stroke-width="2" x1="240" y1="0" x2="240" y2="-15"></line>
+                        <circle id="Plant-Leaf-27" fill="#4CAF50" cx="240" cy="-15" r="4"></circle>
+                        
+                        <line id="Plant-Stem-28" stroke="#1E5631" stroke-width="2" x1="280" y1="0" x2="280" y2="-25"></line>
+                        <circle id="Plant-Leaf-28" fill="#4CAF50" cx="280" cy="-25" r="6"></circle>
+                        
+                        <line id="Plant-Stem-29" stroke="#1E5631" stroke-width="2" x1="320" y1="0" x2="320" y2="-18"></line>
+                        <circle id="Plant-Leaf-29" fill="#4CAF50" cx="320" cy="-18" r="5"></circle>
+                        
+                        <line id="Plant-Stem-30" stroke="#1E5631" stroke-width="2" x1="360" y1="0" x2="360" y2="-22"></line>
+                        <circle id="Plant-Leaf-30" fill="#4CAF50" cx="360" cy="-22" r="5"></circle>
+                    </g>
+                </g>
+            </g>
+            
+            <!-- Carbon Icons -->
+            <g id="Carbon-Icons" transform="translate(150, 150)">
+                <circle id="Carbon-Circle-1" fill="#1E5631" opacity="0.2" cx="0" cy="0" r="15"></circle>
+                <text id="C1" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#1E5631">
+                    <tspan x="-4" y="5">C</tspan>
+                </text>
+                
+                <circle id="Carbon-Circle-2" fill="#1E5631" opacity="0.2" cx="100" cy="-30" r="15"></circle>
+                <text id="C2" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#1E5631">
+                    <tspan x="96" y="-25">C</tspan>
+                </text>
+                
+                <circle id="Carbon-Circle-3" fill="#1E5631" opacity="0.2" cx="200" cy="10" r="15"></circle>
+                <text id="C3" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#1E5631">
+                    <tspan x="196" y="15">C</tspan>
+                </text>
+                
+                <circle id="Carbon-Circle-4" fill="#1E5631" opacity="0.2" cx="300" cy="-20" r="15"></circle>
+                <text id="C4" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#1E5631">
+                    <tspan x="296" y="-15">C</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

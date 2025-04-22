@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="300px" viewBox="0 0 400 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AI Feature</title>
+    <g id="AI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AI-Illustration">
+            <!-- Background -->
+            <rect id="Background" fill="#F5F7FA" x="0" y="0" width="400" height="300" rx="10"></rect>
+            
+            <!-- Brain Icon -->
+            <g id="Brain" transform="translate(175, 60)">
+                <circle id="Brain-Circle" fill="#1565C0" opacity="0.1" cx="25" cy="25" r="50"></circle>
+                <path d="M25,0 C38.8071,0 50,11.1929 50,25 C50,38.8071 38.8071,50 25,50 C11.1929,50 0,38.8071 0,25 C0,11.1929 11.1929,0 25,0 Z" id="Brain-Shape" stroke="#1565C0" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M25,10 C30,10 35,15 35,20 C35,25 30,25 30,30 C30,35 35,35 35,40 C35,45 30,50 25,50 C20,50 15,45 15,40 C15,35 20,35 20,30 C20,25 15,25 15,20 C15,15 20,10 25,10 Z" id="Brain-Detail" stroke="#1565C0" stroke-width="2"></path>
+                <path d="M10,25 L40,25" id="Brain-Connection" stroke="#1565C0" stroke-width="2"></path>
+                <circle id="Node-1" fill="#1565C0" cx="15" cy="15" r="2"></circle>
+                <circle id="Node-2" fill="#1565C0" cx="35" cy="15" r="2"></circle>
+                <circle id="Node-3" fill="#1565C0" cx="15" cy="35" r="2"></circle>
+                <circle id="Node-4" fill="#1565C0" cx="35" cy="35" r="2"></circle>
+                <circle id="Node-5" fill="#1565C0" cx="25" cy="25" r="2"></circle>
+            </g>
+            
+            <!-- Satellite Imagery -->
+            <g id="Satellite" transform="translate(50, 150)">
+                <rect id="Satellite-Image" fill="#FFFFFF" stroke="#1E5631" stroke-width="2" x="0" y="0" width="100" height="100" rx="5"></rect>
+                
+                <!-- Simplified Field View -->
+                <rect id="Field-1" fill="#60AD5E" x="10" y="10" width="30" height="30"></rect>
+                <rect id="Field-2" fill="#8BC34A" x="10" y="50" width="30" height="30"></rect>
+                <rect id="Field-3" fill="#4CAF50" x="50" y="10" width="30" height="30"></rect>
+                <rect id="Field-4" fill="#2E7D32" x="50" y="50" width="30" height="30"></rect>
+                
+                <!-- Grid Lines -->
+                <line id="Grid-H-1" stroke="#1E5631" stroke-width="0.5" opacity="0.5" x1="0" y1="25" x2="100" y2="25"></line>
+                <line id="Grid-H-2" stroke="#1E5631" stroke-width="0.5" opacity="0.5" x1="0" y1="50" x2="100" y2="50"></line>
+                <line id="Grid-H-3" stroke="#1E5631" stroke-width="0.5" opacity="0.5" x1="0" y1="75" x2="100" y2="75"></line>
+                <line id="Grid-V-1" stroke="#1E5631" stroke-width="0.5" opacity="0.5" x1="25" y1="0" x2="25" y2="100"></line>
+                <line id="Grid-V-2" stroke="#1E5631" stroke-width="0.5" opacity="0.5" x1="50" y1="0" x2="50" y2="100"></line>
+                <line id="Grid-V-3" stroke="#1E5631" stroke-width="0.5" opacity="0.5" x1="75" y1="0" x2="75" y2="100"></line>
+                
+                <!-- Satellite -->
+                <g id="Satellite-Icon" transform="translate(75, -20)">
+                    <rect id="Satellite-Body" fill="#607D8B" x="0" y="0" width="20" height="10" rx="2"></rect>
+                    <rect id="Satellite-Panel-1" fill="#FFC107" x="-15" y="2" width="15" height="6"></rect>
+                    <rect id="Satellite-Panel-2" fill="#FFC107" x="20" y="2" width="15" height="6"></rect>
+                    <line id="Satellite-Signal-1" stroke="#607D8B" stroke-width="1" stroke-dasharray="2,2" x1="10" y1="10" x2="-30" y2="50"></line>
+                    <line id="Satellite-Signal-2" stroke="#607D8B" stroke-width="1" stroke-dasharray="2,2" x1="10" y1="10" x2="50" y2="50"></line>
+                </g>
+            </g>
+            
+            <!-- AI Analysis -->
+            <g id="Analysis" transform="translate(200, 150)">
+                <rect id="Analysis-Box" fill="#FFFFFF" stroke="#1565C0" stroke-width="2" x="0" y="0" width="150" height="100" rx="5"></rect>
+                
+                <!-- Chart -->
+                <line id="Chart-X" stroke="#1565C0" stroke-width="1" x1="20" y1="80" x2="130" y2="80"></line>
+                <line id="Chart-Y" stroke="#1565C0" stroke-width="1" x1="20" y1="20" x2="20" y2="80"></line>
+                
+                <!-- Data Points -->
+                <circle id="Data-1" fill="#2E7D32" cx="40" cy="60" r="3"></circle>
+                <circle id="Data-2" fill="#2E7D32" cx="60" cy="40" r="3"></circle>
+                <circle id="Data-3" fill="#2E7D32" cx="80" cy="50" r="3"></circle>
+                <circle id="Data-4" fill="#2E7D32" cx="100" cy="30" r="3"></circle>
+                <circle id="Data-5" fill="#2E7D32" cx="120" cy="45" r="3"></circle>
+                
+                <!-- Trend Line -->
+                <line id="Trend" stroke="#2E7D32" stroke-width="2" x1="40" y1="60" x2="120" y2="45"></line>
+                
+                <!-- Labels -->
+                <text id="Chart-Title" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#1565C0">
+                    <tspan x="30" y="15">Carbon Sequestration Analysis</tspan>
+                </text>
+                <text id="X-Label" font-family="Arial, Arial" font-size="8" fill="#1565C0">
+                    <tspan x="65" y="95">Time (months)</tspan>
+                </text>
+                <text id="Y-Label" font-family="Arial, Arial" font-size="8" fill="#1565C0" transform="translate(10, 50) rotate(-90)">
+                    <tspan x="0" y="0">tCO₂e</tspan>
+                </text>
+            </g>
+            
+            <!-- Recommendation Engine -->
+            <g id="Recommendations" transform="translate(150, 270)">
+                <rect id="Rec-1" fill="#2E7D32" x="0" y="0" width="20" height="10" rx="2"></rect>
+                <text id="Rec-1-Text" font-family="Arial, Arial" font-size="8" fill="#1E5631">
+                    <tspan x="25" y="8">Cover Crop Mix</tspan>
+                </text>
+                
+                <rect id="Rec-2" fill="#60AD5E" x="120" y="0" width="20" height="10" rx="2"></rect>
+                <text id="Rec-2-Text" font-family="Arial, Arial" font-size="8" fill="#1E5631">
+                    <tspan x="145" y="8">No-Till Practice</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

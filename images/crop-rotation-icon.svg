@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Crop Rotation Icon</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Crop-Rotation-Icon">
+            <circle id="Background" fill="#E8F5E9" cx="25" cy="25" r="25"></circle>
+            
+            <!-- Circular Arrows -->
+            <path d="M25,10 C35,10 40,20 35,30" id="Arrow-1" stroke="#1E5631" stroke-width="2" fill="none"></path>
+            <path d="M35,30 C30,40 20,40 15,30" id="Arrow-2" stroke="#1E5631" stroke-width="2" fill="none"></path>
+            <path d="M15,30 C10,20 15,10 25,10" id="Arrow-3" stroke="#1E5631" stroke-width="2" fill="none"></path>
+            
+            <!-- Arrow Heads -->
+            <polyline id="Arrow-Head-1" stroke="#1E5631" stroke-width="2" fill="none" points="35 25 35 30 40 30"></polyline>
+            <polyline id="Arrow-Head-2" stroke="#1E5631" stroke-width="2" fill="none" points="20 35 15 30 15 25"></polyline>
+            <polyline id="Arrow-Head-3" stroke="#1E5631" stroke-width="2" fill="none" points="20 10 25 10 25 15"></polyline>
+            
+            <!-- Crop Icons -->
+            <g id="Corn" transform="translate(22, 15)">
+                <line id="Corn-Stem" stroke="#FFC107" stroke-width="1.5" x1="3" y1="0" x2="3" y2="8"></line>
+                <ellipse id="Corn-Cob" fill="#FFC107" cx="3" cy="4" rx="2" ry="4"></ellipse>
+            </g>
+            
+            <g id="Soybean" transform="translate(32, 30)">
+                <line id="Soybean-Stem" stroke="#8BC34A" stroke-width="1.5" x1="3" y1="0" x2="3" y2="5"></line>
+                <circle id="Soybean-Pod-1" fill="#8BC34A" cx="1" cy="2" r="1"></circle>
+                <circle id="Soybean-Pod-2" fill="#8BC34A" cx="5" cy="2" r="1"></circle>
+                <circle id="Soybean-Pod-3" fill="#8BC34A" cx="1" cy="4" r="1"></circle>
+                <circle id="Soybean-Pod-4" fill="#8BC34A" cx="5" cy="4" r="1"></circle>
+            </g>
+            
+            <g id="Wheat" transform="translate(12, 30)">
+                <line id="Wheat-Stem" stroke="#CDDC39" stroke-width="1.5" x1="3" y1="0" x2="3" y2="8"></line>
+                <path d="M3,0 C3,0 1,2 3,4" id="Wheat-Head-1" stroke="#CDDC39" stroke-width="1"></path>
+                <path d="M3,0 C3,0 5,2 3,4" id="Wheat-Head-2" stroke="#CDDC39" stroke-width="1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
